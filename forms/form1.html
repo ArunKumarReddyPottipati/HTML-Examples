@@ -4,34 +4,34 @@
         <title>form1</title>
     </head>
     <body>
-        <form name="Login Form" method="post">
+        <form action="serverlet1" name="Login Form" method="get" >
             <table cellspacing="10px">
                 <tr>
                     <td><h3>HTML Form</h3></td>
                 </tr>
                 <tr>
-                    <td><label> First Name:</label></td>
-                    <td><input type="text"></td>
+                    <td><label for="id1"> First Name:</label></td>
+                    <td><input type="text" name="fname" id="id1"></td>
                 </tr>
                 <tr>
-                    <td><label> Last Name:</label></td>
-                    <td><input type="text"></td>
+                    <td><label for="id2"> Last Name:</label></td>
+                    <td><input type="text" name="lname" id="id2"></td>
                 </tr>
                 <tr>
-                    <td><label for="">Date of Birth:</label></td>
-                    <td><input type="date"></td>
+                    <td><label for="id3">Date of Birth:</label></td>
+                    <td><input type="date" name="dob" id="id3"></td>
                 </tr>
                 <tr>
-                    <td><label>Email Id:</label></td>
-                    <td><input type="email"></td>
+                    <td><label for="id4">Email Id:</label></td>
+                    <td><input type="email" name="mail" id="id4"></td>
                 </tr>
                 <tr>
-                    <td>Mobile number:</td>
-                    <td><input type="number"></td>
+                    <td><label for="id5">Mobile number:</label></td>
+                    <td><input type="number" name="num" id="id5"></td>
                 </tr>
                 <tr>
-                    <td><input type="submit" value="Submit"></td>
-                    <td><input type="reset" value="Reset"></td>
+                    <td><input type="submit" value="Submit" name="sub" id="id6"></td>
+                    <td><input type="reset" value="Reset" name="res" id="id7"></td>
                 </tr>
             </table>
         </form>
